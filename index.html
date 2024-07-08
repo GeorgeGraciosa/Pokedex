@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex
+  </title>
+  <link rel="icon" href="./icone/favicon.ico">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <main class="container">
+    <div>
+      <h1>Pokédex</h1>
+      <img alt="pokemon" class="poke-img" id="poke-img">
+      <h2 class="poke-data">
+        <span class="poke-number"></span> -
+        <span class="poke-name"></span><br>
+      </h2>
+      <h3 class="poke-data"><span class="poke-type"></span></h3>
+      <span class="poke-ability"></span>
+
+      <ul class="poke-infos">
+        <li class="infos poke-stats0"></li>
+        <li class="infos poke-stats1"></li>
+        <li class="infos poke-stats2"></li>
+        <li class="infos poke-stats3"></li>
+        <li class="infos poke-stats4"></li>
+        <li class="infos poke-stats5"></li>
+      </ul>
+    </div>
+
+    <form class="formulario">
+      <input type="search" class="buscar" required>
+    </form>
+
+    <div>
+      <button class="button btn-prev"> &lt; Prev </button>
+      <button class="button btn-next"> Next &gt; </button>
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
